@@ -1,0 +1,63 @@
+.App {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: solid 2px black;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .employee-box {
+    border: solid 1px black;
+    padding: 15px;
+    height: 65px;
+    width: 350px;
+    border-color: red;
+    image-rendering: auto;
+  }
+  
+  .search-bar {
+    padding: 7px;
+    margin-bottom: 40px;
+  }
+  
+  .employee-list-box {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: right;
+    margin-left: 25px;
+  }
+
+  .employee-page {
+    border: solid 2px black;
+    width: 400px;
+  }
+  
+  .employee-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info {
+    padding: 10px;
+    border: solid gray 1px;
+    gap: 20px;
+    width: 350px;
+  }
+  
+  .employee-header {
+    display: flex;
+    justify-content: center;
+  }
