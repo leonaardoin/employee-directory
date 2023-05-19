@@ -5,11 +5,10 @@ import Information from '../utilities/EmployeeInformation'
 export default function EmployeePage(props)
 {
     return (
-
+       
         <div className='employee-page'>
 
             <HeaderEmployee title='Employee' />
-
             {Data ?
             <div className='employee-page-container'>
                 <h3>{Data[1].name}</h3>
